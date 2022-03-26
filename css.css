@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(133, 133, 133);
+}
+.div5{
+    width: 550px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 170px;
+    border-radius: 250px 450px 300px 500px;
+    background-position: auto;
+    border-bottom: 50px black solid;
+    border-left: 20px greenyellow solid;
+    background-image: url(iran.jpg);
+    background-attachment: fixed;
+
+    /*background-image:linear-gradient(to right,blue,red,yellow,green) ;*/
+}
+.div5:hover{
+    width: 550px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 170px;
+    border-radius: 250px 450px 300px 500px;
+    background-position: auto;
+    border-bottom: 50px greenyellow solid;
+    border-left: 20px black solid;
+    background-attachment: fixed;
+    background-image: url("japan.jpg");
+}
+.p1{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    background-attachment: fixed;
+    border: 1px;
+    color: black;
+}
+.p1::first-letter{
+    font-size: 40px;
+    padding-right: 10px;
+    color: black;
+}
+.p1:hover,.h1:hover{
+    color: white;
+}
+.text{
+    text-align: center;
+}
+.h1{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px;
+}
+.div2{
+    width: 150px;
+    height: 150px;
+    background-color: greenyellow;
+    border-radius: 130px;
+}
+.div3{
+    width: 90px;
+    height: 90px;
+    background-color: greenyellow;
+    margin-left: 250px;
+    border-radius: 150px;
+    background-attachment: fixed;
+}
+.div4{
+    width: 250px;
+    height: 250px;
+    background-color: greenyellow;
+    margin-left: 450px;
+    border-radius: 250px;
+}
+.div4:hover{
+    background-color: white;
+}
+.div3:hover{
+    background-color:black;
+}
+.div2:hover{
+    background-color: aliceblue;
+}
+.footer{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 550px;
+    background-image: linear-gradient(to left,white,greenyellow,white);
+}
